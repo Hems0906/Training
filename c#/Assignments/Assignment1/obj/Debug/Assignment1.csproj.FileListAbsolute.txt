@@ -1,0 +1,7 @@
+C:\Users\hemac\Documents\TrainingJune2025\c#\Assignments\Assignment1\bin\Debug\Assignment1.exe.config
+C:\Users\hemac\Documents\TrainingJune2025\c#\Assignments\Assignment1\bin\Debug\Assignment1.exe
+C:\Users\hemac\Documents\TrainingJune2025\c#\Assignments\Assignment1\bin\Debug\Assignment1.pdb
+C:\Users\hemac\Documents\TrainingJune2025\c#\Assignments\Assignment1\obj\Debug\Assignment1.csproj.AssemblyReference.cache
+C:\Users\hemac\Documents\TrainingJune2025\c#\Assignments\Assignment1\obj\Debug\Assignment1.csproj.CoreCompileInputs.cache
+C:\Users\hemac\Documents\TrainingJune2025\c#\Assignments\Assignment1\obj\Debug\Assignment1.exe
+C:\Users\hemac\Documents\TrainingJune2025\c#\Assignments\Assignment1\obj\Debug\Assignment1.pdb
