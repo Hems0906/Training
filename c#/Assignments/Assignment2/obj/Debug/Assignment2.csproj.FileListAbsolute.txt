@@ -1,0 +1,7 @@
+C:\Hemachandra\DotNetTraining\c#\Assignments\Assignment2\bin\Debug\Assignment2.exe.config
+C:\Hemachandra\DotNetTraining\c#\Assignments\Assignment2\bin\Debug\Assignment2.exe
+C:\Hemachandra\DotNetTraining\c#\Assignments\Assignment2\bin\Debug\Assignment2.pdb
+C:\Hemachandra\DotNetTraining\c#\Assignments\Assignment2\obj\Debug\Assignment2.csproj.AssemblyReference.cache
+C:\Hemachandra\DotNetTraining\c#\Assignments\Assignment2\obj\Debug\Assignment2.csproj.CoreCompileInputs.cache
+C:\Hemachandra\DotNetTraining\c#\Assignments\Assignment2\obj\Debug\Assignment2.exe
+C:\Hemachandra\DotNetTraining\c#\Assignments\Assignment2\obj\Debug\Assignment2.pdb
