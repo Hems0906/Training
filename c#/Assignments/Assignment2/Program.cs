@@ -7,14 +7,14 @@ namespace Assignment2
     {
        public static void Main()
         {
-            //SwapingOfNumbers();
-            //RepeatingOfData();
-            // DayFinder();
-            // FirstArray();
-            //Valuation();
-            // CopyofElements();
-           // str1();
-           // str2();
+            SwapingOfNumbers();
+            RepeatingOfData();
+            DayFinder();
+            FirstArray();
+            Valuation();
+            CopyofElements();
+            str1();
+            str2();
             str3();
             Console.Read();
         }
