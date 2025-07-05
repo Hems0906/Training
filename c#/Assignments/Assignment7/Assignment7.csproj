@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{768E285F-3793-4D6D-97E8-4363AA27D127}</ProjectGuid>
+    <ProjectGuid>{C1A467D9-DB6F-497C-AD1F-A00E53687CB1}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CodeChallenge2</RootNamespace>
-    <AssemblyName>CodeChallenge2</AssemblyName>
+    <RootNamespace>Assignment7</RootNamespace>
+    <AssemblyName>Assignment7</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -32,9 +32,6 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject>CodeChallenge2.ThirdQuestion</StartupObject>
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,10 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Product.cs" />
-    <Compile Include="Student.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ThirdQuestion.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
