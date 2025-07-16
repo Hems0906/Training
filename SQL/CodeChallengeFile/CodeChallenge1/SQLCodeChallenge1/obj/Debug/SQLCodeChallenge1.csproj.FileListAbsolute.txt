@@ -1,0 +1,7 @@
+C:\Hemachandra\DotNetTraining\SQL\CodeChallengeFile\CodeChallenge1\SQLCodeChallenge1\bin\Debug\SQLCodeChallenge1.exe.config
+C:\Hemachandra\DotNetTraining\SQL\CodeChallengeFile\CodeChallenge1\SQLCodeChallenge1\bin\Debug\SQLCodeChallenge1.exe
+C:\Hemachandra\DotNetTraining\SQL\CodeChallengeFile\CodeChallenge1\SQLCodeChallenge1\bin\Debug\SQLCodeChallenge1.pdb
+C:\Hemachandra\DotNetTraining\SQL\CodeChallengeFile\CodeChallenge1\SQLCodeChallenge1\obj\Debug\SQLCodeChallenge1.csproj.AssemblyReference.cache
+C:\Hemachandra\DotNetTraining\SQL\CodeChallengeFile\CodeChallenge1\SQLCodeChallenge1\obj\Debug\SQLCodeChallenge1.csproj.CoreCompileInputs.cache
+C:\Hemachandra\DotNetTraining\SQL\CodeChallengeFile\CodeChallenge1\SQLCodeChallenge1\obj\Debug\SQLCodeChallenge1.exe
+C:\Hemachandra\DotNetTraining\SQL\CodeChallengeFile\CodeChallenge1\SQLCodeChallenge1\obj\Debug\SQLCodeChallenge1.pdb

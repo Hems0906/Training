@@ -10,7 +10,7 @@ namespace CodeChallenge3
     {
         public int Pointscalculation(int numberOfMatches)
         {
-            int sum = 0;
+            int sum ;
 
             for (int i = 1; i <= numberOfMatches; i++)
             {
