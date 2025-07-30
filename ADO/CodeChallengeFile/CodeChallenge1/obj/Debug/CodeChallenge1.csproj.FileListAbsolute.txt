@@ -1,0 +1,7 @@
+C:\Hemachandra\DotNetTraining\ADO\CodeChallengeFile\CodeChallenge1\bin\Debug\CodeChallenge1.exe.config
+C:\Hemachandra\DotNetTraining\ADO\CodeChallengeFile\CodeChallenge1\bin\Debug\CodeChallenge1.exe
+C:\Hemachandra\DotNetTraining\ADO\CodeChallengeFile\CodeChallenge1\bin\Debug\CodeChallenge1.pdb
+C:\Hemachandra\DotNetTraining\ADO\CodeChallengeFile\CodeChallenge1\obj\Debug\CodeChallenge1.csproj.AssemblyReference.cache
+C:\Hemachandra\DotNetTraining\ADO\CodeChallengeFile\CodeChallenge1\obj\Debug\CodeChallenge1.csproj.CoreCompileInputs.cache
+C:\Hemachandra\DotNetTraining\ADO\CodeChallengeFile\CodeChallenge1\obj\Debug\CodeChallenge1.exe
+C:\Hemachandra\DotNetTraining\ADO\CodeChallengeFile\CodeChallenge1\obj\Debug\CodeChallenge1.pdb
