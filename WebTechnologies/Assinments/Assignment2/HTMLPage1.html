@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML & CSS Exercises</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+        }
+
+        h2 {
+            color: #333;
+            margin-top: 40px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            background: white;
+            max-width: 900px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+        }
+
+        /* Task 1: Image Overlay */
+        .overlay-container {
+            position: relative;
+            width: 300px;
+            margin: 0 auto;
+        }
+
+        .overlay-image {
+            width: 100%;
+            display: block;
+            border-radius: 8px;
+        }
+
+        .overlay-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+            border-radius: 8px;
+        }
+
+        .overlay-container:hover .overlay-text {
+            opacity: 1;
+        }
+
+        /* Task 2: CSS3 Button */
+        .fancy-button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background: linear-gradient(135deg, #00b4db, #0083b0);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            transition: transform 0.2s, background 0.3s;
+            display: block;
+            margin: 20px auto;
+        }
+
+            .fancy-button:hover {
+                transform: scale(1.05);
+                background: linear-gradient(135deg, #0083b0, #00b4db);
+            }
+
+        /* Task 4: Animation */
+        @keyframes fadeinout {
+            0% {
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 1;
+            }
+
+            100% {
+                opacity: 0;
+            }
+        }
+
+        .animated-box {
+            width: 200px;
+            height: 100px;
+            background-color: #4CAF50;
+            animation: fadeinout 3s ease-in-out 1s infinite;
+            text-align: center;
+            line-height: 100px;
+            color: white;
+            font-weight: bold;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        /* Task 5: Tribute Page */
+        .tribute-header {
+            text-align: center;
+            background-color: #fff;
+            color: white;
+            padding: 30px;
+            border-radius: 10px 10px 0 0;
+        }
+
+            .tribute-header img {
+                width: 400px;
+                align-self:stretch;
+                border-radius: 10px;
+                margin-bottom: 15px;
+                justify-content:stretch;
+            }
+
+        .tribute-content {
+            padding: 0px;
+        }
+
+            .tribute-content h3 {
+                color: #444;
+            }
+
+            .tribute-content ul {
+                line-height: 1.6;
+            }
+    </style>
+</head>
+<body>
+
+    <!-- Task 1 -->
+    <section>
+        <h2>1. Image Overlay Effect on Hover</h2>
+
+        <div class="overlay-container">
+            <img src="C:\Hemachandra\RoughWork\img\baki.jpeg" alt="Sample" class="overlay-image">
+            <div class="overlay-text">Baki Hanma</div>
+        </div>
+    </section>
+
+    <!-- Task 2 -->
+    <section>
+        <h2>2. CSS3 Based Button</h2>
+        <button class="fancy-button">Click Me!</button>
+    </section>
+
+    <!-- Task 3 -->
+    <section>
+        <h2>3. Descriptive / Definition List</h2>
+        <dl>
+            <dt><strong>HTML</strong></dt>
+            <dd>HyperText Markup Language - the foundation of web content.</dd>
+
+            <dt><strong>CSS</strong></dt>
+            <dd>Cascading Style Sheets - used to design and beautify HTML elements.</dd>
+
+            <dt><strong>JavaScript</strong></dt>
+            <dd>A programming language that adds interactivity and logic to web pages.</dd>
+        </dl>
+    </section>
+
+    <!-- Task 4 -->
+    <section>
+        <h2>4. Animation Delay and Repeat</h2>
+        <div class="animated-box">Fading Text</div>
+    </section>
+
+    <!-- Task 5 -->
+    <section>
+        <div class="tribute-header">
+            <img src="C:\Hemachandra\RoughWork\img\Ak.jpeg" alt="Dr. Kalam">
+            <h2>Dr. A.P.J. Abdul Kalam</h2>
+            <h2>
+                "If you FAIL, never give up because F.A.I.L. means 'First Attempt In Learning'. END is not the end; in fact E.N.D. means 'Effort Never Dies'. If you get NO as an answer, remember N.O. means 'Next Opportunity'."
+                
+            </h2>
+        </div>
+        <div class="tribute-content">
+            <h3>About</h3>
+            <p>
+                Dr. A.P.J. Abdul Kalam was a visionary scientist and the 11th President of India. He was popularly known as the "Missile Man of India" for his pioneering role in the country's missile programs. He dedicated his life to education, innovation, and uplifting the youth of India.
+            </p>
+
+            <h3>Achievements</h3>
+            <ul>
+                <li>Led India's missile development program (Agni, Prithvi).</li>
+                <li>Played key role in India's Pokhran-II nuclear tests.</li>
+                <li>Received Bharat Ratna (India's highest civilian award).</li>
+                <li>Authored inspirational books like <em>Wings of Fire</em> and <em>Ignited Minds</em>.</li>
+                <li>Inspired millions of students across India through speeches and interactions.</li>
+            </ul>
+        </div>
+    </section>
+
+</body>
+</html>

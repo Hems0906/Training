@@ -1,0 +1,5 @@
+C:\Hemachandra\RoughWork\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Hemachandra\RoughWork\WindowsFormsApp1\obj\Debug\LoginPortalApp.btn.resources
+C:\Hemachandra\RoughWork\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Hemachandra\RoughWork\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Hemachandra\RoughWork\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
