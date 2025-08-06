@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>CodeChallenge7</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        td, th {
+            border: 1px solid #333;
+            padding: 8px;
+            text-align: center;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+
+        div > h1 {
+            background-color: darkslategrey;
+        }
+    </style>
+</head>
+<body>
+    <h2>1) Multiplication and Division</h2>
+
+    <label>1st Number : <input type="number" id="num1"></label><br>
+    <label>2nd Number: <input type="number" id="num2"></label><br><br>
+
+    <button onclick="showMultiplication()">Multiply</button>
+    <button onclick="showDivision()">Divide</button>
+
+    <p id="result"></p>
+
+    <script>
+        function getInputValues() {
+            const num1 = parseFloat(document.getElementById("num1").value);
+            const num2 = parseFloat(document.getElementById("num2").value);
+            return { num1, num2 };
+        }
+
+        function showMultiplication() {
+            const { num1, num2 } = getInputValues();
+            if (isNaN(num1) || isNaN(num2)) {
+                document.getElementById("result").innerText = "Please enter valid numbers.";
+                return;
+            }
+            document.getElementById("result").innerText = `Multiplication: ${num1 * num2}`;
+        }
+
+        function showDivision() {
+            const { num1, num2 } = getInputValues();
+            if (isNaN(num1) || isNaN(num2)) {
+                document.getElementById("result").innerText = "Please enter valid numbers.";
+                return;
+            }
+            if (num2 === 0) {
+                document.getElementById("result").innerText = "Cannot divide by zero.";
+                return;
+            }
+            document.getElementById("result").innerText = `Division: ${num1 / num2}`;
+        }
+    </script>
+
+    <h2> 2) Even or Odd Numbers from 0 to 15</h2>
+    <div id="result2"></div>
+
+    <script>
+        const outputDiv = document.getElementById("result2");
+
+        for (let i = 0; i <= 15; i++) {
+            const type = i % 2 === 0 ? "even" : "odd";
+            const para = document.createElement("p");
+            para.textContent = `${i} is ${type}`;
+            outputDiv.appendChild(para);
+        }
+    </script>
+
+    <h2>3) Show Message</h2>
+    <button id="myButton">Click Me</button>
+    <p id="message"></p>
+
+    <script>
+        document.getElementById("myButton").addEventListener("click", function () {
+            const message = "This is My Third Question in the CodeChallenge7";
+            alert(message);
+            document.getElementById("message").innerText = message;
+        });
+    </script>
+
+    <h2>4) Before Hiding Odd Rows</h2>
+    <div class="section">
+        <table id="myTable">
+            <tr><td>Row 1</td></tr>
+            <tr><td>Row 2</td></tr>
+            <tr><td>Row 3</td></tr>
+            <tr><td>Row 4</td></tr>
+            <tr><td>Row 5</td></tr>
+        </table>
+    </div>
+
+    <button id="hideOddBtn">Hide Odd Rows</button>
+
+    <h2>After Hiding Odd Rows</h2>
+    <div class="section">
+        <table id="resultTable">
+        </table>
+    </div>
+
+    <script>
+        $(document).ready(function () {
+            $("#hideOddBtn").click(function () {
+                const clonedTable = $("#myTable").clone();
+
+                clonedTable.find("tr:odd").hide();
+
+                $("#resultTable").replaceWith(clonedTable.attr("id", "resultTable"));
+            });
+        });
+    </script>
+    <h2>5) Give BG Color</h2>
+    <div>
+        <h1>This is a "h1" inside a div tag.</h1>
+    </div>
+    <h1>This "h1" is outside of the div tag.</h1>
+
+    <h2>6) Single Element from Selection</h2>
+    <ul>
+        <li>CSHARP</li>
+        <li>SQL</li>
+        <li>ADO</li>
+    </ul>
+
+    <h3 id="firstItemOutput"></h3>
+
+    <script>
+        $(document).ready(function () {
+            let firstItem = $("li").first();
+            $("#firstItemOutput").text("First Item: " + firstItem.text());
+        });
+    </script>
+
+    <h2>7) Showing Index of the List</h2>
+
+    <ul id="indexedList">
+        <li>CSHARP</li>
+        <li>SQL</li>
+        <li>ADO</li>
+    </ul>
+
+    <script>
+        $(document).ready(function () {
+            $("#indexedList li").each(function (index) {
+                $(this).prepend(index + " ");
+            });
+        });
+    </script>
+
+    <h2>8) Append </h2>
+
+    <input type="text" id="myInput" placeholder="Type here and press Enter">
+    <div id="messageBox"></div>
+
+    <script>
+        $(document).ready(function () {
+            $('#myInput').on('change', function () {
+                const value = $(this).val();
+                $('#messageBox').append('<p>You entered: ' + value + '</p>');
+            });
+        });
+    </script>
+
+
+
+</body>
+</html>
