@@ -1,0 +1,62 @@
+﻿---------------------------------------------------------------------------------------------------
+Overview:-
+
+ The Railway Reservation System is a console application that allows users to manage train reservations,
+ including booking tickets, viewing bookings, and handling cancellations. The system is designed to facilitate 
+ both administrative and customer functionalities, ensuring a smooth user experience.
+
+Class Descriptions:-
+
+1. Program
+          Purpose: Entry point of the application.
+   
+   Key Methods: 
+        Main: Initializes the application and presents the main menu.
+        AdminLogin: Handles admin login functionality.
+        CustomerRegistration: Manages customer registration.
+        CustomerLogin: Manages customer login.
+        CustomerMenu: Displays options for logged-in customers.
+2. Admin
+        Purpose: Manages administrative tasks.
+   Key Methods:
+        ValidateAdmin: Validates admin credentials against the database.
+
+3. Customer
+          Purpose: Manages customer-related functionalities.
+
+   Key Methods:
+        Register: Registers a new customer.
+        ValidateCustomer: Validates customer login credentials.
+4. Train
+        Purpose: Manages train-related data.
+
+   Key Methods:
+        Trains: Retrieves a list of all trains.
+        AddTrain: Adds a new train with details.
+
+5. Reservation
+              Purpose: Manages ticket reservations.
+
+   Key Methods:
+        GetCustomerReservations: Retrieves reservations for a specific customer.
+        BookTicket: Books tickets for a customer.
+        CancelTicket: Cancels a booked ticket.
+        PromoteWaitingList: Promotes the next ticket in the waiting list to confirmed status.
+
+6. Reports
+          Purpose: Generates reports for tickets and cancellations.
+
+   Key Methods:
+        GetTicketReport: Retrieves a report of all booked tickets.
+        GetCancellationReport: Retrieves a report of all cancellations.
+
+7. DatabaseManager
+                 Purpose: Handles database operations.
+
+   Key Methods:
+        GetConnection: Creates and returns a new SqlConnection object.
+        ExecuteNonQuery: Executes a SQL command that does not return results.
+        ExecuteScalar: Executes a SQL command that returns a single value.
+        ExecuteQuery: Executes a SQL command that returns multiple rows of data.
+
+---------------------------------------------------------------------------------------------------
