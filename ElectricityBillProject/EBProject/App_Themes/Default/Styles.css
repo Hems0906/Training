@@ -1,0 +1,90 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.12);
+    margin: 20px auto;
+    width: min(95%, 720px);
+}
+
+h1, h2 {
+    margin: 0 0 12px
+}
+
+.label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin: 6px 0;
+}
+
+.btn {
+    background: #0078d7;
+    color: #fff;
+    border: 0;
+    padding: 10px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+    .btn:disabled {
+        opacity: .6;
+        cursor: not-allowed
+    }
+
+.nav {
+    background: #0078d7;
+    color: #fff;
+    padding: 12px 16px;
+    display: flex;
+    gap: 16px;
+}
+
+    .nav a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+.msg-ok {
+    color: #0a7a28;
+    font-weight: bold;
+}
+
+.msg-err {
+    color: #b00020;
+    font-weight: bold;
+}
+
+.grid {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 16px;
+}
+
+    .grid th, .grid td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: center;
+    }
+
+    .grid th {
+        background: #e8f1fe;
+    }

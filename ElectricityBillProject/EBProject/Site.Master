@@ -1,0 +1,21 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="ElectricityBillingSystem.Site" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <title>Electricity Billing System</title>
+    <link href="App_Themes/Default/Styles.css" rel="stylesheet" />
+</head>
+<body>
+    <form runat="server">
+        <div class="nav">
+            <a href="Home.aspx">Home</a>
+            <a href="AddBill.aspx">Add Bill</a>
+            <a href="ViewBills.aspx">View Bills</a>
+            <asp:LinkButton ID="lnkLogout" runat="server" OnClick="lnkLogout_Click" Text="Logout" />
+        </div>
+        <div class="container">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+    </form>
+</body>
+</html>
