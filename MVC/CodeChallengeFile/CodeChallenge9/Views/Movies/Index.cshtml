@@ -1,0 +1,28 @@
+﻿@model IEnumerable<CodeChallenge9.Models.Movie>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Movies List</h2>
+<p>@Html.ActionLink("Add Movie", "Create")</p>
+
+<table class="table">
+    <tr>
+        <th>Movie Name</th>
+        <th>Director</th>
+        <th>Release Date</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.MovieName</td>
+            <td>@item.DirectorName</td>
+            <td>@item.DateOfRelease.ToShortDateString()</td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Mid }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Mid })
+            </td>
+        </tr>
+    }
+</table>
